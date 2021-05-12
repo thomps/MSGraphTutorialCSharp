@@ -1,0 +1,17 @@
+dotnet user-secrets init
+dotnet user-secrets set apiFunctionId "7c966608-bcf6-431b-ba36-01c724904ad0"
+dotnet user-secrets set apiFunctionSecret "3hniZd8a~5_T8YvC-Hrl-F-YIe3ESV7u-5"
+dotnet user-secrets set tenantId "cae7a454-c077-4cbb-8392-610cebcb2c05"
+dotnet user-secrets set webHookId "53af0d8c-5ebe-4f8c-83d2-05ea523d95b5"
+dotnet user-secrets set webHookSecret "9Xq-A98Zxn4z7~bpKC-4edk~5~avZ333r8"
+
+dotnet add package Microsoft.Azure.Functions.Extensions --version 1.0.0
+dotnet add package Microsoft.Extensions.Configuration.UserSecrets --version 3.1.5
+dotnet add package Microsoft.Graph --version 3.8.0
+dotnet add package Microsoft.Identity.Client --version 4.15.0
+dotnet add package Microsoft.IdentityModel.Protocols.OpenIdConnect --version 6.7.1
+dotnet add package System.IdentityModel.Tokens.Jwt --version 6.7.1
+
+
+
+    <UserSecretsId>2e12e6b3-ed4a-48e5-85aa-abe05fd8985c</UserSecretsId>
