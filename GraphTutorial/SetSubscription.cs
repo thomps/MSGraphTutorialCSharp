@@ -1,7 +1,3 @@
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT license.
-
-// <SetSubscriptionSnippet>
 using GraphTutorial.Authentication;
 using GraphTutorial.Models;
 using GraphTutorial.Services;
@@ -120,4 +116,3 @@ namespace GraphTutorial
         }
     }
 }
-// </SetSubscriptionSnippet>

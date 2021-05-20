@@ -81,7 +81,7 @@ namespace GraphTutorial
             return new AcceptedResult();
         }
 
-        private async Task ProcessNotification(ChangeNotification notification, ILogger log)
+        private async Task ProcessNotification(ChangeNotificationPayload notification, ILogger log)
         {
             var graphClient = _clientService.GetAppGraphClient(log);
 

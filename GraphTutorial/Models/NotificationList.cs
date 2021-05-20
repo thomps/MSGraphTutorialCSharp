@@ -4,6 +4,6 @@ namespace GraphTutorial.Models
     // in a notification payload
     public class NotificationList
     {
-        public ChangeNotification[] Value { get;set; }
+        public ChangeNotificationPayload[] Value { get;set; }
     }
 }
